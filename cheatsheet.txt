@@ -1,0 +1,19 @@
+touch .gitignore
+git config --global user.name xyz
+git config --global user.email abc@gmail.com
+git init
+git add
+git commit -m "Initial Commit"
+git status # just to see
+ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+tail <path to id_rsa.pub>
+#add this key to your github account
+git remote add origin <ssh url.git>
+git push origin master
+
+
+new file ko upload krne ke liye same program me..
+git status
+git add .
+git commit -m "added filename"
+git push origin master
